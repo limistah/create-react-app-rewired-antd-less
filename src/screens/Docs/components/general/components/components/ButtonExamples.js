@@ -8,6 +8,7 @@ import buttonWithIcons from './buttons/withIcons';
 import buttonSizes from './buttons/sizes';
 import buttonGroups from './buttons/groups'
 import buttonBlocks from './buttons/blocks'
+import buttonDisabled from './buttons/disabled'
 
 const ColGenerator = ({ examples }) => {
   return examples.map((item, index) => {
@@ -35,7 +36,8 @@ const Wrapper = Styled(ColGenerator)`
 export default (props) => (  
   <Row gutter={16}>
     <Wrapper examples={[
-      basicButtons, buttonWithIcons, buttonSizes, buttonGroups, buttonBlocks
+      basicButtons, buttonWithIcons, buttonSizes, buttonGroups,
+      buttonBlocks, buttonDisabled
     ]} />
   </Row>
 );

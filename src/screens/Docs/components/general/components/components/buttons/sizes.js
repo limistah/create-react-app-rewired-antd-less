@@ -55,7 +55,7 @@ export default {
       There are <code>primary</code> button, <code>default</code> button, <code>dashed</code> button and <code>danger</code> button in antd.
     </p>
   ),
-  metaTitle: 'Sizes',
+  metaTitle: 'Button Sizes',
   code: `
   import { Button, Radio, Icon } from 'antd';
 
