@@ -1,6 +1,6 @@
 import React from 'react';
 import { HeaderWithFixedSidebarLayout } from "../../layouts";
-import { Route, Switch } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import { GeneralButtonsPage, GeneralIconsPage } from './components';
 
 // import { GeneralButtonsPage } from './components/general';
