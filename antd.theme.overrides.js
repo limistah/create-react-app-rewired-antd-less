@@ -7,7 +7,7 @@
 const varrs = {
   '@ant-prefix':                                  'ant',
   // -------- Colors -----------
-  '@primary-color':                               '@blue-6',
+  '@primary-color':                               '@green-6',
   '@info-color':                                  '@blue-6',
   '@success-color':                               '@green-6',
   '@processing-color':                            '@blue-6',
