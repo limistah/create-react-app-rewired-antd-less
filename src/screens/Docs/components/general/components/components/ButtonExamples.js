@@ -3,9 +3,10 @@ import { Row, Col } from 'antd';
 import CodeBox from '../../../../../../components/CodeBox';
 import Styled from 'styled-components';
 
-import basicButton from './buttons/basic';
-import buttonWithIcon from './buttons/withIcons';
-import buttonSize from './buttons/size';
+import basicButtons from './buttons/basics';
+import buttonWithIcons from './buttons/withIcons';
+import buttonSizes from './buttons/sizes';
+import buttonGroups from './buttons/groups'
 
 const ColGenerator = ({ examples }) => {
   return examples.map((item, index) => {
@@ -33,7 +34,7 @@ const Wrapper = Styled(ColGenerator)`
 export default (props) => (  
   <Row gutter={16}>
     <Wrapper examples={[
-      basicButton, buttonWithIcon, buttonSize
+      basicButtons, buttonWithIcons, buttonSizes, buttonGroups
     ]} />
   </Row>
 );
