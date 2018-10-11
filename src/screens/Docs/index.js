@@ -1,5 +1,9 @@
 import React from 'react';
 import { HeaderWithFixedSidebarLayout } from "../../layouts";
+import { Route, Switch } from 'react-router-dom';
+import { GeneralButtonsPage, GeneralIconsPage } from './components';
+
+// import { GeneralButtonsPage } from './components/general';
 
 const buildMenuItems = (parentURL) => {
   return [{
@@ -55,7 +59,10 @@ const buildMenuItems = (parentURL) => {
 const Docs = (props) => {
   const { match } = props;
   return (
-    <HeaderWithFixedSidebarLayout menuItems={buildMenuItems(match.url)} />
+    <HeaderWithFixedSidebarLayout menuItems={buildMenuItems(match.url)}>
+      <Route path={`${match.url}/general/buttons`} component={GeneralButtonsPage} />
+      <Route path={`${match.url}/general/icons`} component={GeneralIconsPage} />        
+    </HeaderWithFixedSidebarLayout>
   );
 }
 

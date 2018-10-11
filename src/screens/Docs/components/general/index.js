@@ -1,5 +1,5 @@
-import GeneralButtonPage from './components/Buttons';
+import Buttons from './components/Buttons';
+import Icons from './components/Icons';
 
-export default {
-  GeneralButtonPage
-};
+export const ButtonsPage = Buttons;
+export const IconsPage = Icons;

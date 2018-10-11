@@ -17,6 +17,7 @@ class HeaderWithFixedSidebar extends Component {
     this.state = {
       collapsed: false,
     }
+    console.log(props.children);
   }
 
   onCollapse = (collapsed) => {
@@ -31,21 +32,7 @@ class HeaderWithFixedSidebar extends Component {
         <Layout style={{ marginLeft: 200 }}>
           <Header style={{ background: '#fff', padding: 0 }} />
           <Content style={{ margin: '24px 16px 0', overflow: 'initial' }}>
-            <div style={{ padding: 24, background: '#fff', textAlign: 'center' }}>
-              ...
-              <br />
-              Really
-              <br />...<br />...<br />...<br />
-              long
-              <br />...<br />...<br />...<br />...<br />...<br />...
-              <br />...<br />...<br />...<br />...<br />...<br />...
-              <br />...<br />...<br />...<br />...<br />...<br />...
-              <br />...<br />...<br />...<br />...<br />...<br />...
-              <br />...<br />...<br />...<br />...<br />...<br />...
-              <br />...<br />...<br />...<br />...<br />...<br />...
-              <br />...<br />...<br />...<br />...<br />...<br />
-              content
-            </div>
+            {this.props.children}
           </Content>
           <Footer style={{ textAlign: 'center' }}>
             Ant Design ©2018 Created by Ant UED

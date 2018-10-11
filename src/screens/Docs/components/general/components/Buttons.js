@@ -1,11 +1,9 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class GeneralButtonPage extends Component {
-  render() {
-    return (
-      <div>
-        This is the GeneralButtonPage
-      </div>
-    )
-  }
+const Buttons = (props) => {
+  return (
+    <div>Trial</div>
+  );
 }
+
+export default Buttons;
