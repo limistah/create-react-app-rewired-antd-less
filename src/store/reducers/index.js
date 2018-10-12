@@ -1,5 +1,7 @@
-const reducers = {
+import { combineReducers } from 'redux';
 
-}
+import { appInitialized } from './appInitialized';
 
-export default reducers;
+export default combineReducers({
+  appInitialized
+});

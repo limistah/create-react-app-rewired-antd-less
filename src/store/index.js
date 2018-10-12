@@ -1,11 +1,11 @@
-import { createStore, combineReducers, applyMiddleware } from 'redux'
+import { createStore, applyMiddleware } from 'redux'
 import thunk from 'redux-thunk';
-import storeActions from './actions';
-import reducers from './reducers';
+import reduxActions from './actions';
+import reduxReducers from './reducers';
 
 export const store = createStore(
-  combineReducers({ state: reducers }),
+  reduxReducers,
   applyMiddleware(thunk)
 );
 
-export const actions = { ...storeActions };
+export const actions = reduxActions;
