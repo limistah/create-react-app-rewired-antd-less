@@ -10,7 +10,7 @@ This boiler plate follows a strict convention for folder structuring inspired by
 
 I find it concise and added some more rules. Check DOC.MD of each sub dir or `/src` to see the usage and what should be contained in the directory.
 
-To do some cutomizations to the antd default variables, update `antd.theme.overrides` to what ever value you want, and restart the server.
+To do some customizations to the antd default variables, update `antd.theme.overrides` to what ever value you want, and restart the server.
 
 ### What is included:
 
