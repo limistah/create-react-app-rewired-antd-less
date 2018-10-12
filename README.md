@@ -1,4 +1,4 @@
-# Create React App Antd Rewire Less
+# Create React App Rewired Antd Less
 
 Want to use _AntD_, _react-router_, _react-redux_ and do some more configurations to
 create-react-app without ejecting?
@@ -10,7 +10,7 @@ This boiler plate follows a strict convention for folder structuring inspired by
 
 I find it concise and added some more rules. Check DOC.MD of each sub dir or `/src` to see the usage and what should be contained in the directory.
 
-To do some customizations to the antd default variables, update `antd.theme.overrides` to what ever value you want, and restart the server.
+To do some customization to the antd default variables, update `antd.theme.overrides` to what ever value you want, and restart the server.
 
 ### What is included:
 
@@ -26,6 +26,8 @@ To do some customizations to the antd default variables, update `antd.theme.over
 ... and
 
 Feel free to add yours
+
+**You Still have the power of create-react-app see [React App Rewired](https://github.com/timarney/react-app-rewired)**
 
 You don't have to worry about the setup anymore.
 You have a ready made project setup.
